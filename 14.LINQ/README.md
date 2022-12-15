@@ -1,12 +1,8 @@
 # simple_tasks
 
-Create a base class "Transport". Inherit “Auto” from it,
-"Airplane", "Train". From the class “Auto” inherit the classes “Car
-auto”, “Truck”. Inherit classes from the “Airplane” class
-Cargo Aircraft and Passenger Aircraft. Create fields for
-base class, and add fields to child classes that
-will specifically characterize objects of child classes.
-Define constructors, methods to populate class fields
-(or use properties). Write a method that outputs
-information about this type of transport and its characteristics.
-Use virtual methods.
+Write a function that takes a list of integers
+numbers and returns a new list consisting of
+digits of the input list (Cycles cannot be used).
+Example:
+input: 123 234 34 56 76 23
+output: 1 2 3 2 3 4 3 4 5 6 7 6 2 3

@@ -1,12 +1,16 @@
 # simple_tasks
 
-Create a base class "Transport". Inherit “Auto” from it,
-"Airplane", "Train". From the class “Auto” inherit the classes “Car
-auto”, “Truck”. Inherit classes from the “Airplane” class
-Cargo Aircraft and Passenger Aircraft. Create fields for
-base class, and add fields to child classes that
-will specifically characterize objects of child classes.
-Define constructors, methods to populate class fields
-(or use properties). Write a method that outputs
-information about this type of transport and its characteristics.
-Use virtual methods.
+Develop a class "Account for payment". Provide the following fields in the class:
+■ pay per day;
+■ number of days;
+■ penalty for one day delay in payment;
+■ number of days delay payment;
+■ amount payable without penalty (calculated field);
+■ penalty (calculated field);
+■ total amount due (calculated field).
+In the class, declare a static property of bool type, the value of which affects
+the process of formatting objects of this class. If the value of this property is
+true, then all fields are serialized and deserialized, if false - calculated
+fields are not serialized.
+Develop an application in which you want to demonstrate the use
+of this class, the results must be written to and read from the file.

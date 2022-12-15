@@ -1,12 +1,11 @@
 # simple_tasks
 
-Create a base class "Transport". Inherit “Auto” from it,
-"Airplane", "Train". From the class “Auto” inherit the classes “Car
-auto”, “Truck”. Inherit classes from the “Airplane” class
-Cargo Aircraft and Passenger Aircraft. Create fields for
-base class, and add fields to child classes that
-will specifically characterize objects of child classes.
-Define constructors, methods to populate class fields
-(or use properties). Write a method that outputs
-information about this type of transport and its characteristics.
-Use virtual methods.
+Create a generic bidirectional list class (List).
+For the List class, implement the following methods:
+▪ adding an element to the end of the list;
+▪ adding an element to the specified position;
+▪ adding a range of elements to the specified position;
+▪ deleting an element from the beginning of the list;
+▪ removal of an element from the specified position;
+▪ deleting a range of elements from the specified position;
+▪ displaying the content of the list;

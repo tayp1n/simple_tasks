@@ -1,12 +1,13 @@
 # simple_tasks
 
-Create a base class "Transport". Inherit “Auto” from it,
-"Airplane", "Train". From the class “Auto” inherit the classes “Car
-auto”, “Truck”. Inherit classes from the “Airplane” class
-Cargo Aircraft and Passenger Aircraft. Create fields for
-base class, and add fields to child classes that
-will specifically characterize objects of child classes.
-Define constructors, methods to populate class fields
-(or use properties). Write a method that outputs
-information about this type of transport and its characteristics.
-Use virtual methods.
+Using the weather API (optional):
+http://api.pogoda.com/index.php?api_lang=ru&localidad=13088&affiliate_id=4v7j6at7rkya-7
+days
+http://api.pogoda.com/index.php?api_lang=ru&localidad=13088&affiliate_id=4v7j6at7rkya&v=2 - 5
+days every 3 hours
+http://api.pogoda.com/index.php?api_lang=ru&localidad=13088&affiliate_id=4v7j6at7rkya&v=2&h=1
+- for every hour
+Implement an application that displays the weather forecast for the city of Kyiv
+for now, tomorrow and the day after tomorrow.
+Display information about air temperature, wind speed and cloud cover.
+Each time the application is launched, the current weather information is saved in a separate XML file.

@@ -1,12 +1,7 @@
 # simple_tasks
 
-Create a base class "Transport". Inherit “Auto” from it,
-"Airplane", "Train". From the class “Auto” inherit the classes “Car
-auto”, “Truck”. Inherit classes from the “Airplane” class
-Cargo Aircraft and Passenger Aircraft. Create fields for
-base class, and add fields to child classes that
-will specifically characterize objects of child classes.
-Define constructors, methods to populate class fields
-(or use properties). Write a method that outputs
-information about this type of transport and its characteristics.
-Use virtual methods.
+Implement an XML file that describes the structure of the bus.
+Take into account the parameters that you consider
+necessary. There must be at least 5 parameters
+bus.
+Describe at least 4 buses in the file.
